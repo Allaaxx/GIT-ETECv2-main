@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-image: url(../img/fundo-topo.jpg);
+
+    text-align: center;
+
+    padding: 10px 0;
+}
+
+header h1{
+    margin: 0;
+    height: 84px; 
+}
+
+nav{
+    text-align: center;
+    padding: 15px 0;
+}
+
+nav li{
+    display: inline;
+
+    background-image: url(../img/patinha-preta.png);
+    background-repeat: no-repeat;   
+    padding-right: 27px;    
+    margin-right: 10px;
+    background-position: center right;
+
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+nav a:hover{
+    color: #6dd432;
+}
+
+#itemContato{
+    background-image: none;
+    padding: 0;
+    margin: 0;
+}
+
+.fundo-verde{
+    background-color: #bdff9c;
+}
+
+.container{
+    width: 900px;
+    margin: 0 auto;
+    padding: 56px 0;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-container .col{
+    width: 431px;
+}
+ .produto{
+    width: 235px;
+ }
+
+ .produto figure{
+    border: 1px solid #c4c4c4;
+    background-color: #fff;
+    margin: 0 0 15px 0;
+    padding: 0;
+    text-align: center;
+    height: 160px;
+    line-height: 160px;
+}
+
+.produto figure img{
+    vertical-align: middle;
+}
+
+.texto-centralizado{
+    text-align: center;
+}
+
+.btn-pata{
+    border: 1px solid #91e467;
+    background-color: #d2fbbd;
+    text-decoration: none;
+    color: #000;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+#produto .flex-container{
+    margin-top: 43px;
+}
+
+form{
+    width: 380px;  
+}
+
+form input, form textarea{
+    width: 100%;
+    border: 1px solid #6dd432;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;   
+}
+
+iframe{
+    width: 100%;
+}
+
+h2{
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+#produto .flex-container, #contato .flex-container{
+    margin-top: 43px;
+}
+
+hr{
+
+    height: 1px;
+    border-width:0;
+    color:#6dd432;
+    background-color:#6dd432
+
+}
+
+#insta{
+    width: 100px;
+    height: 100px;
+    
+}   
+footer h3{
+    font-family:'Courier New', Courier, monospace;
+}
+
+#git{
+    width: 100px;
+    height: 100px;
+    
+}
+
+@media (max-width:560px){
+    .flex-container{
+        justify-content: none;
+    }
+    .container{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    #sobre{
+        display: flex;
+        justify-content: center;
+    }
+    body{
+        text-align: center;
+    }
+    #produto-div {
+
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+
+    #servico{ 
+        display: flex;
+        justify-content: center;
+    }
+    #imagens-dog{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+
+    #contato{
+        display: flex;
+        justify-content: center;
+    }
+
+    #contato{
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    ul{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    a{
+        display: flex;
+        width: 100%;
+        padding-left: 10px;
+        
+    }
+    #itemContato{
+       
+        padding: 6px;
+        margin-right: 10px;
+    }
+    nav li{
+        background-color: #bdff9c;
+        border: 1px solid #6dd432;
+        border-radius: 10px;
+        padding: 6px;
+        margin-bottom: 1%;    
+        
+        background-image:none;
+    }
+
+    nav{
+        background-image: url(../img/icons8-gato-100.png);
+        
+    }
+   h3{
+       text-align: left;
+       padding: 5%;
+   }
+}
